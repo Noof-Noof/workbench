@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage[absolute]{textpos}
+\usepackage{fancyhdr}
+
+\fancypagestyle{lscape}{% 
+\fancyhf{} % clear all header and footer fields 
+\fancyfoot[LE]{%
+\begin{textblock}{20}(1,5){\rotatebox{90}{\leftmark}}\end{textblock}
+\begin{textblock}{1}(13,10.5){\rotatebox{90}{\thepage}}\end{textblock}}
+\fancyfoot[LO] {%
+\begin{textblock}{1}(13,10.5){\rotatebox{90}{\thepage}}\end{textblock}
+\begin{textblock}{20}(1,13.25){\rotatebox{90}{\rightmark}}\end{textblock}}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}}
+
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+
+
+\begin{document}
+\begin{itemize}
+	\item https://www.bunnings.com.au/2440-x-1220mm-3mm-melamine-natural-wood\_p0093003 \$ 25.80 2440x1200mm 3mm Melamine Natural Wood  (for back board)
+	\item https://www.bunnings.com.au/2440-x-1220mm-32mm-mdf-panel-standard\_p0590062 \$125.50 2440 x 1220mm 32mm MDF Panel Standard (desk)
+	\item 2x https://www.bunnings.com.au/1200-x-1198mm-12mm-plywood-pine-premium-bc-grade\_p0390211 \$40.65 1200 x 1198mm 12mm Plywood Pine Premium BC Grade (side strucutre)
+        \item 2x https://www.bunnings.com.au/18mm-standard-mdf\_p0590060 \$48.20 18mm Standard MDF (draws, sides)
+\end{itemize}
+Total price: \$329\\
+
+
+
+
+
+%\begin{figure}[hp!]
+%  \centering
+%  \includegraphics[width=12cm]{test.png}
+%  \caption{test image}
+%\end{figure}
+\end{document}
